@@ -280,7 +280,6 @@ export function LoggingCard({ cfg, last, onClose }: LoggingCardProps) {
               index={index}
               side={row.side}
               bodyweight={bw}
-              kgStep={cfg.kgStep}
               kg={row.kg}
               reps={row.reps}
               done={row.done}

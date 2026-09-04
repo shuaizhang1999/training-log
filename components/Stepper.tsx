@@ -5,7 +5,7 @@ import { useEffect, useRef, useState } from "react";
 interface StepperProps {
   label: string;
   value: number;
-  /** Amount added/removed per tap (kg increment from config, or 1 for reps). */
+  /** Amount added/removed per tap (always 1 for both kg and reps). */
   step: number;
   min?: number;
   max?: number;

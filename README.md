@@ -17,7 +17,7 @@ Node 24 (`.nvmrc` is set; `nvm use` picks it up).
   with a service account. The app only ever *appends* rows to the Log tab —
   it never edits or deletes existing rows and never touches other tabs.
 - **`lib/exercises.ts` is the program.** Every exercise's default sets, rep
-  range, kg increment, rest seconds and unilateral flag live in that one typed
+  range, bodyweight flag, rest seconds and unilateral flag live in that one typed
   constant. Edit it there; the whole UI follows. An exercise can also list
   `aliases` — old hand-written spellings in the sheet (e.g. "push up on knee")
   — so pre-fill and history pick up rows logged before the app existed. Name
@@ -173,7 +173,7 @@ Notes for gym reality:
 ## Project layout
 
 ```
-lib/exercises.ts        the program: names, sets×reps, kg increment, rest, unilateral
+lib/exercises.ts        the program: names, sets×reps, bodyweight, rest, unilateral
 lib/rowcodec.ts         entry ⇄ sheet-row encoding (the data contract lives here)
 lib/sheets.ts           googleapis client — read Log!A4:K, append one row
 lib/outbox.ts           localStorage queue + retry/dedupe sync

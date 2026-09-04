@@ -8,7 +8,6 @@ interface SetRowProps {
   index: number;
   side?: Side;
   bodyweight: boolean;
-  kgStep: number;
   kg: number;
   reps: number;
   done: boolean;
@@ -21,7 +20,6 @@ export function SetRow({
   index,
   side,
   bodyweight,
-  kgStep,
   kg,
   reps,
   done,
@@ -81,7 +79,7 @@ export function SetRow({
           <Stepper
             label="kg"
             value={kg}
-            step={kgStep}
+            step={1}
             decimals={1}
             onChange={(v) => onChange({ kg: v })}
           />
