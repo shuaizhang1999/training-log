@@ -37,6 +37,7 @@ export const EXERCISES: readonly ExerciseConfig[] = [
   { name: "Dumbbell lateral raise",   sets: 3, repsMin: 10, repsMax: 12, bodyweight: false, restSec: 60,  unilateral: false },
   { name: "Face pull",                sets: 3, repsMin: 15, repsMax: 20, bodyweight: false, restSec: 45,  unilateral: false },
   { name: "Pallof press",             sets: 3, repsMin: 12, repsMax: 15, bodyweight: false, restSec: 45,  unilateral: true },
+  { name: "Dead bug",                 sets: 3, repsMin: 10, repsMax: 12, bodyweight: true,  restSec: 45,  unilateral: false },
   { name: "Goblet squat",             sets: 3, repsMin: 8,  repsMax: 10, bodyweight: false, restSec: 120, unilateral: false },
   { name: "Bulgarian split squat",    sets: 3, repsMin: 8,  repsMax: 10, bodyweight: false, restSec: 90,  unilateral: true },
   { name: "Figure-four glute bridge", sets: 3, repsMin: 8,  repsMax: 12, bodyweight: true,  restSec: 90,  unilateral: true },
@@ -44,6 +45,7 @@ export const EXERCISES: readonly ExerciseConfig[] = [
   { name: "Lateral lunge",            sets: 2, repsMin: 10, repsMax: 10, bodyweight: true,  restSec: 60,  unilateral: true },
   { name: "Hammer curl",              sets: 3, repsMin: 10, repsMax: 12, bodyweight: false, restSec: 60,  unilateral: false },
   { name: "Rope triceps pushdown",    sets: 3, repsMin: 10, repsMax: 12, bodyweight: false, restSec: 60,  unilateral: false },
+  { name: "Overhead cable triceps extension", sets: 3, repsMin: 10, repsMax: 12, bodyweight: false, restSec: 60, unilateral: false },
   { name: "Reverse curl",             sets: 2, repsMin: 15, repsMax: 20, bodyweight: false, restSec: 45,  unilateral: false },
 ];
 
