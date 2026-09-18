@@ -30,9 +30,10 @@ export interface ExerciseConfig {
 
 export const EXERCISES: readonly ExerciseConfig[] = [
   { name: "Lat pulldown",             sets: 3, repsMin: 8,  repsMax: 12, bodyweight: false, restSec: 120, unilateral: false },
-  { name: "Seated cable row",         sets: 3, repsMin: 10, repsMax: 12, bodyweight: false, restSec: 90,  unilateral: false, stackNote: "stack 25 · 28.5 · 32 · 35.5" },
+  { name: "Chest-supported seated row", sets: 3, repsMin: 10, repsMax: 12, bodyweight: false, restSec: 90,  unilateral: false },
   { name: "Incline dumbbell press",   sets: 3, repsMin: 8,  repsMax: 12, bodyweight: false, restSec: 120, unilateral: false },
-  { name: "Knee push-up",             sets: 3, repsMin: 6,  repsMax: 8,  bodyweight: true,  restSec: 90,  unilateral: false, aliases: ["push up on knee"] },
+  { name: "Converging shoulder press", sets: 3, repsMin: 8,  repsMax: 12, bodyweight: false, restSec: 90,  unilateral: false },
+  { name: "Knee push-up",             sets: 3, repsMin: 6,  repsMax: 8,  bodyweight: true,  restSec: 90,  unilateral: false },
   { name: "Dumbbell lateral raise",   sets: 3, repsMin: 10, repsMax: 12, bodyweight: false, restSec: 60,  unilateral: false },
   { name: "Face pull",                sets: 3, repsMin: 15, repsMax: 20, bodyweight: false, restSec: 45,  unilateral: false },
   { name: "Pallof press",             sets: 3, repsMin: 12, repsMax: 15, bodyweight: false, restSec: 45,  unilateral: true },
